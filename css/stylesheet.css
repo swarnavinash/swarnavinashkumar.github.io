@@ -114,17 +114,17 @@ a {
     line-height: 38px;
     font-weight: 500;
     letter-spacing: 0.02em;
-    color:#0d0d0d;
+    color:#F8F8F8;
     margin: 0 auto 4px auto;
     padding: 0 0 8px 0;
-    border-bottom: 1px solid rgb(255,255,255, 0.85);
+    /* border-bottom: 1px solid rgb(255,255,255, 0.85); */
 }
 .profile h2 {
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0;
     font-weight: 600;
-    color:#777;
+    color:#F8F8F8;
     margin: 0 auto 20px auto;
 }
 .profile .social-icons {
@@ -133,9 +133,9 @@ a {
 }
 
 .section-centerer .nav img{
-    height:40px;
+    height:25px;
     margin: 22px 0 78px 0;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 .profile .social-icons a {
     position: relative;
@@ -150,10 +150,13 @@ a {
     margin:0;
     border-radius: 0%;
     box-shadow: none;
-    opacity: 0.5;
+    opacity: 0.9;
 }
 
 /*Projects section*/
+.projects.section {
+  background-color: #ffffff;
+}
 .projects.section h2 {
     font-size: 16px;
     font-weight: 500;
@@ -239,7 +242,15 @@ span.opensource {
     background-color: #00ffef;
 }
 
+/* Divider Section */
+.divider.section {
+  min-height: 40vh;
+}
+
 /* Awards Section */
+.awards.section {
+  background-color: #ffffff;
+}
 .awards.section h2 {
     font-size: 16px;
     font-weight: 500;
@@ -287,7 +298,7 @@ img#su {
     margin: 120px 0 0 0;
     font-size: 48px;
     font-weight: 400;
-    color:#131313;
+    color:#F8F8F8;
 }
 .blog.section .btn {
     margin-bottom: 0;
@@ -301,12 +312,12 @@ img#su {
 
 /*Contact section*/
 .contact.section {
-    background-color: #131313;
+    background-color: #ffffff;
 }
 .contact.section h2 {
     font-size: 50px;
     font-weight: 400;
-    color:#fafafa;
+    color:#777777;
 }
 .contact.section .btn {
     margin-bottom:24px;
@@ -349,3 +360,38 @@ img#su {
         font-size: 30px;
     }
   }
+
+
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  /* Add some content at the bottom of the video/page */
+  /* .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  } */
+
+  /* Style the button used to pause/play the video */
+  /* #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  } */
