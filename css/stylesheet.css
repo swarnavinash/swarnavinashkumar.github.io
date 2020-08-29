@@ -109,8 +109,12 @@ a {
     border-radius: 50%;
     margin: 0 0 18px 0;
 }
+.vert-text {
+    text-shadow: 2px 2px 8px  #696969
+}
 .profile h1 {
     font-size: 36px;
+    font-family: 'Poppins', sans-serif;
     line-height: 38px;
     font-weight: 500;
     letter-spacing: 0.02em;
@@ -122,6 +126,7 @@ a {
 .profile h2 {
     font-size: 20px;
     line-height: 24px;
+    font-family: 'Poppins', sans-serif;
     letter-spacing: 0;
     font-weight: 600;
     color:#F8F8F8;
